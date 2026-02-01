@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+section:hover {
+  transform: scale(1.02);
+}
+.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: 0.5s ease;
+}
+
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.dan-toc {
+    display: flex;
+    gap: 20px;
+}
+
+.dan-toc section {
+    flex: 1;
+}
+body {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.96);
+}
+.box {
+  width: 220px;
+  height: 120px;
+  background: #6366f1;
+  color: white;
+  text-align: center;
+  line-height: 120px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.banner {
+    height: 350px;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
